@@ -1,0 +1,20 @@
+.prev,
+.next {
+  top: 40%;
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  font-size: 4rem;
+}
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+@media screen and (max-width: 425px) {
+  .next,
+  .prev {
+    font-size: 2rem;
+  }
+}
